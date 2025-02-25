@@ -20,6 +20,9 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+  
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
 jobs:
   # Single deploy job since we're just deploying
