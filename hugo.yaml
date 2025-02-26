@@ -19,23 +19,15 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
+                subtitle: Blog
     zh-cn:
         languageName: 中文
         title: 林哲远
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
-
+                subtitle: 博客
+  
 services:
     # Change it to your Disqus shortname before using
     disqus:
