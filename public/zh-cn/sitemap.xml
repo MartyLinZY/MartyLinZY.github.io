@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/p/blog/</loc>
-    <lastmod>2025-02-26T20:33:53+08:00</lastmod>
+    <loc>http://localhost:1313/p/buildblog/</loc>
+    <lastmod>2025-02-27T17:31:27+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-02-26T20:33:53+08:00</lastmod>
+    <lastmod>2025-02-27T17:31:27+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-26T20:33:53+08:00</lastmod>
+    <lastmod>2025-02-27T17:31:27+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -20,6 +20,12 @@
                 hreflang="zh-cn"
                 href="http://localhost:1313/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/p/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%AD%BE%E8%AF%81%E7%94%B3%E8%AF%B7/</loc>
+    <lastmod>2025-02-27T17:25:28+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/blog/</loc>
+    <lastmod>2025-02-26T20:33:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/p/helloworld/</loc>
     <lastmod>2025-02-25T20:51:31+08:00</lastmod>

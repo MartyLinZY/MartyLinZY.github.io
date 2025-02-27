@@ -15,18 +15,18 @@ hasCJKLanguage: true
 languages:
     en:
         languageName: English
-        title: Zheyuan Lin
+        title: Zheyuan Lin's Blog
         weight: 1
         params:
             sidebar:
                 subtitle: Blog
     zh-cn:
         languageName: 中文
-        title: 林哲远
+        title: 林哲远的博客
         weight: 2
         params:
             sidebar:
-                subtitle: 博客
+                subtitle: 春风若有怜花意，何事长向别时圆
   
 services:
     # Change it to your Disqus shortname before using
@@ -64,7 +64,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/小羊大头.jpg
 
     article:
         math: false
