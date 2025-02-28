@@ -150,7 +150,7 @@ params:
         gitalk:
             owner: MartyLinZY
             admin: ['MartyLinZY']
-            repo: Mistletoe
+            repo: MartyLinZY.github.io
             clientID: Ov23liP2a8Cas7VU6ApM
             clientSecret: 6c8c7e26b31e076e3ffe65fd398876f9e0bdef64
             proxy:
