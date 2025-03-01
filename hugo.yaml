@@ -102,7 +102,7 @@ params:
             locale:
 
         vssue:
-            platform: Github
+            platform: github
             owner: MartyLinZY
             repo: MartyLinZY.github.io
             clientId: Ov23liP2a8Cas7VU6ApM
