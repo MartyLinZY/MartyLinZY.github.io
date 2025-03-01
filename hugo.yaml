@@ -76,7 +76,7 @@ params:
 
     comments:
         enabled: true
-        provider: gitalk
+        provider: vssue
 
         disqusjs:
             shortname:
@@ -102,12 +102,12 @@ params:
             locale:
 
         vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
+            platform: Github
+            owner: MartyLinZY
+            repo: MartyLinZY.github.io
+            clientId: Ov23liP2a8Cas7VU6ApM
+            clientSecret: 6c8c7e26b31e076e3ffe65fd398876f9e0bdef64
+            autoCreateIssue: true
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
