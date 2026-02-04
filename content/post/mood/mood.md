@@ -1,7 +1,7 @@
 +++
 title = 'Mood'
 date = 2025-03-13T16:43:05+08:00
-draft = true
+draft = false
 +++
 
 # 浅谈情绪价值
