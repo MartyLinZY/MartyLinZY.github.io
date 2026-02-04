@@ -10,3 +10,47 @@ draft = true
 # 项目注册
 
 Github上注册项目，项目名对应用户名和github.io的域名。
+
+# 本地预览博客（Hugo）
+
+## 进入项目目录
+
+```bash
+cd /Users/linzheyuan/MartyLinZY.github.io
+```
+
+## 安装 Hugo（如未安装）
+
+使用 Homebrew：
+
+```bash
+brew install hugo
+```
+
+验证安装：
+
+```bash
+hugo version
+```
+
+## 启动本地预览服务器
+
+- **正常预览（不包含草稿 `draft = true` 的文章）**：
+
+```bash
+hugo server
+```
+
+- **包含草稿文章的预览**：
+
+```bash
+hugo server -D
+```
+
+启动成功后，终端会输出一个地址，一般是：
+
+```text
+http://localhost:1313
+```
+
+在浏览器中打开该地址，即可本地预览博客。修改任意 `content/` 下的 Markdown 文件并保存后，页面会自动刷新显示最新内容。

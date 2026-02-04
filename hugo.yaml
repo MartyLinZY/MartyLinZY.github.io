@@ -67,7 +67,7 @@ params:
             src: img/小羊大头.jpg
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
