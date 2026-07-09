@@ -2,7 +2,7 @@
 title = 'GitLab 升级实录：踩坑记录与排查指南（PostgreSQL、Alertmanager、配置错误）'
 date = 2025-07-28T16:15:46+08:00
 draft = false
-
+image = "unnamed.jpg"
 categories = [
     "Linux运维"
 ]
@@ -59,7 +59,7 @@ GitLab 升级时自动将 PostgreSQL 从 12 升级到 13，但由于旧数据目
 gitlab-ctl pg-upgrade
 ```
 
-3. 若失败，可参考官方步骤手动迁移：
+1. 若失败，可参考官方步骤手动迁移：
 
 ```bash
 gitlab-ctl stop
@@ -90,13 +90,13 @@ Alertmanager 被多次启动，导致 9094 被占用，无法进行 gossip mesh 
 lsof -i :9094
 ```
 
-2. 杀掉残留进程：
+1. 杀掉残留进程：
 
 ```bash
 kill -9 <PID>
 ```
 
-3. 再次启动 Alertmanager：
+1. 再次启动 Alertmanager：
 
 ```bash
 gitlab-ctl restart alertmanager
@@ -129,7 +129,7 @@ grafana['enable'] = true
 # grafana['enable'] = true
 ```
 
-3. 执行重新配置：
+1. 执行重新配置：
 
 ```bash
 gitlab-ctl reconfigure
@@ -142,7 +142,7 @@ gitlab-ctl reconfigure
 ### ❗错误日志
 
 ```text
-Connect to 47.98.191.109:8008 failed: Connection refused
+Connect to REDACTED_HOST:8008 failed: Connection refused
 DiscoveryClient was unable to refresh its cache!
 ```
 
